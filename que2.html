@@ -7,11 +7,14 @@
   </head>
   <body>
     <script>
-      var input = prompt("Enter A Number");
-      if (input % 2 == 0) {
-        alert(`${input} is a even number`);
-      } else {
-        alert(`${input} is a Odd number`);
+      var fn = prompt("Enter First Number");
+      var sn = prompt("Enter Second Number");
+      if (fn > sn) {
+        alert("Greater");
+      } else if ((fn = sn)) {
+        alert("Equal");
+      } else if (fn < sn) {
+        alert("Smaller");
       }
     </script>
   </body>
